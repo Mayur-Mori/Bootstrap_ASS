@@ -1,0 +1,60 @@
+* {
+    font-family: quicksand;
+}
+
+.header-wrapper {
+    font-size: 30px;
+    color: white;
+    background-color: blueviolet;
+    font-family: quicksand;
+    text-align: center;
+    /* width: 100%; */
+
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+h2 {
+    color: rgb(177, 16, 16);
+}
+
+h3 {
+    font-style: italic;
+    /* text-align: right; */
+    margin-right: 50px;
+    color: rgb(133, 3, 42);
+    font-size: 30px;
+}
+
+strong {
+    color: purple;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.str {
+    color: brown;
+}
+
+body {
+
+    background: rgb(208,6,210);
+    background: linear-gradient(90deg, rgba(208,6,210,1) 1%, rgba(179,22,179,1) 25%, rgba(132,60,170,1) 45%, rgba(166,61,184,1) 62%, rgba(156,45,177,1) 83%, rgba(132,20,212,1) 99%);
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+ul>li,
+p~ol>li {
+    font-size: 20px;
+    /* color: blue; */
+    font-weight: normal;
+}
